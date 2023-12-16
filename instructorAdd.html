@@ -42,8 +42,17 @@
         <a class="nav-link" href="payment.html">Payment</a>
 
       </div>
-      <div class="second-div"><br><br><br><br><br><br><br><br><br>
+      <div class="second-div"><br><br><br>
+        <div>      
+          <a class="exit" href="logIn.html"  > Log Out</a>
+         </div>
+         <br><br><br><br><br><br>
+
         <p class="ptitle">Adding The Instructor<p><br>
+
+
+        <!-- Form -->
+        <form class="instructorAddForm">
 
             <!-- Instructor Id -->
           <div class="horizontal-inputs">
@@ -97,7 +106,6 @@
               <label for="input8">Experiences</label><br>
               <textarea id="input8" name="input8" class="custom-textarea" rows="8" cols="70"></textarea>
            </div>
-
            <br><br><br>
 
            <!-- Address -->
@@ -105,15 +113,15 @@
             <label for="input9">Address</label><br>
             <textarea id="input9" name="input9" class="custom-textarea" rows="8" cols="70"></textarea>
 
-         </div>
+         </div><br><br>
+            
 
-         
-            <!--Button -->
-            <br><br>
-            <div class="slide">
-             <input type="button" value="DONE"  onclick="submitForm()">
-            </div>
+         <!-- Submit Button-->
+         <div class="slide">
+          <button class = "submit"> DONE </button>
+         </div>
     
+        </form>
         </div>
 </body>
 </html>
